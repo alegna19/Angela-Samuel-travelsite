@@ -1,0 +1,35 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.nav__container-list {
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  align-items: end;
+  list-style: none;
+  align-items: baseline;
+}
+
+.nav_container-title {
+  color: #335576;
+}
+
+.nav__item {
+  padding: 0 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav__item--active {
+  border-bottom: 4px solid #db7a4e;
+  padding: 1rem;
+}
+
+.nav__item--active:hover {
+  color: #db7a4e;
+}
