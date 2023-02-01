@@ -33,3 +33,45 @@
 .nav__item--active:hover {
   color: #db7a4e;
 }
+
+.section-hero {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__hero-heading {
+  text-align: left;
+  color: #335576;
+  font-size: 4rem;
+}
+
+.section__hero-content {
+  width: 58%;
+  padding-left: 7rem;
+}
+
+.section__hero-text {
+  color: #335576;
+  font-weight: 200;
+  padding: 1.6rem;
+}
+
+.section__hero-image {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section__image {
+  width: 60%;
+  height: auto;
+}
+
+.section__hero-btn {
+  background-color: #db7a4e;
+  border-radius: 1.8rem;
+  padding: 1rem 3.9rem;
+  color: white;
+  text-decoration: none;
+}
