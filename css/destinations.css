@@ -1,20 +1,38 @@
 .itinerary {
-  margin: 5rem 0;
   background-image: url(../assets/images/hawaii.jpg);
-  /* width: 100%;
-  height: 100%; */
+  background-position: center;
+  background-size: cover;
+  padding: 9rem;
 }
-
-.itinerary-container {
+.itinerary__title {
+  font-size: 7.8rem;
+  color: white;
+  margin-top: 0;
+}
+.itinerary__container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 5rem;
 }
-
 .itinerary__card {
-  position: relative;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 38.1vh;
-  height: 51.6vh;
-  margin: 4rem;
+  background-color: white;
+  border-radius: 5px;
+  width: 28%;
+  height: 32%;
+  flex-wrap: wrap;
+  padding: 0rem 2rem;
+}
+.itinerary__card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+}
+.itinerary__card-content {
+  text-align: center;
+  background: #fefaf5;
+  padding: 0.1rem;
+  width: 100%;
 }/*# sourceMappingURL=destinations.css.map */
