@@ -1,5 +1,4 @@
-.itinerary {
-  background-image: url(../assets/images/hawaii.jpg);
+.itinerary, .itinerary__image-greece, .itinerary__image-iceland, .itinerary__image-hawaii {
   background-position: center;
   background-size: cover;
   padding: 9rem;
@@ -35,4 +34,16 @@
   background: #fefaf5;
   padding: 0.1rem;
   width: 100%;
+}
+
+.itinerary__image-hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+
+.itinerary__image-iceland {
+  background-image: url(../assets/images/iceland.jpg);
+}
+
+.itinerary__image-greece {
+  background-image: url(../assets/images/greece.jpg);
 }/*# sourceMappingURL=destinations.css.map */

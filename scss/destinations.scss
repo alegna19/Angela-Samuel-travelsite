@@ -3,11 +3,9 @@
 
 
 .itinerary {
-  background-image: $bg-image-hawaii;
   background-position: center;
   background-size: cover;
   padding: 9rem;
-
 
  &__title {
     font-size: 7.8rem;
@@ -50,3 +48,18 @@
   }
 
 }
+
+ &_image-hawaii {
+   @extend .itinerary;
+   background-image: $bg-image-hawaii;
+ }
+
+&__image-iceland {
+    @extend .itinerary;
+      background-image: $bg-image-iceland;
+  }
+
+ &__image-greece {
+   @extend .itinerary;
+   background-image: $bg-image-greece;
+ }
