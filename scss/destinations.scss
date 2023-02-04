@@ -47,12 +47,12 @@
   &__activity {
       padding: 1.5rem 4rem; 
       background: $bg-color;
-  }
- 
-  &__space {
-    background: white;
-  }
+      margin-bottom: 2rem;
 
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+  }
 }
 
  .itinerary__image-hawaii {

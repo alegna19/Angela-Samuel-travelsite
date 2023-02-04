@@ -61,7 +61,7 @@
 
   &__card {
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px;
     width: 30rem;
     height: 50rem;
     margin: 4rem;
@@ -90,7 +90,7 @@
   &__image {
     height: 100%;
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     object-fit: cover;
   }
 

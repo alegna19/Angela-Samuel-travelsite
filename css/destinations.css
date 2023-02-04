@@ -39,9 +39,10 @@
 .itinerary__activity {
   padding: 1.5rem 4rem;
   background: #fefaf5;
+  margin-bottom: 2rem;
 }
-.itinerary__space {
-  background: white;
+.itinerary__activity:last-of-type {
+  margin-bottom: 0;
 }
 
 .itinerary__image-hawaii {

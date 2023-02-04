@@ -12,7 +12,14 @@ body {
   font-size: 1.6rem;
   font-family: Verdana;
   margin: 0;
-  padding: 0;
+  padding: 63px 0 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .nav {
