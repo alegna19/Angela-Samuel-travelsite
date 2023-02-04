@@ -11,17 +11,19 @@
 
 <body>
     <header>
-        <nav class="nav-container">
-            <h2 class="title">Travel Site</h2>
+        <nav class="nav">
+            <ul>
+                <li class="nav__logo"><a class="nav__logo-link" href="./index.html">Travel Site</a></li>
+            </ul>
             <ul class="nav__container-list">
-                <li class="nav__item nav__item--active">Home</li>
-                <li class="nav__item">Hawaii</li>
-                <li class="nav__item">Iceland</li>
-                <li class="nav__item">Greece</li>
+                <li class="nav__item nav__item--active"><a class="nav__link" href="./index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="/pages/hawaii.html">Hawaii</a></li>
+                <li class="nav__item"><a class="nav__link" href="/pages/hawaii.html">Iceland</a></li>
+                <li class="nav__item"><a class="nav__link" href="/pages/hawaii.html">Greece</a></li>
             </ul>
         </nav>
     </header>
-    <section class="section-hero">
+    <section class="section">
         <div class="section__hero-content">
             <h1 class="section__hero-heading">Travelling Comes Width Endless Discoveries</h1>
             <p class="section__hero-text">Don't let your dreams be just dreams. Experience the world by booking a
@@ -34,8 +36,8 @@
     </section>
 
     <section class="recommendations">
-        <h2 class="title">Recommendations</h2>
-        <div class="recommentations-container">
+        <h2 class="recommendations__title">Recommendations</h2>
+        <div class="recommendations__container">
             <div class="recommendations__card">
                 <img class="recommendations__image" src="./assets/images/hawaii.jpg" alt="hawaii image">
                 <div class="recommendations__title">
@@ -58,18 +60,18 @@
         </div>
     </section>
     <footer>
-        <div class="contact-container">
-            <div class="contact">
-                <h3 class="title">Contact</h3>
+        <div class="contact">
+            <div>
+                <h3 class="contact__title">Contact</h3>
                 <div>
                     <p class="contact__sub-title">Email</p>
-                    <p class="title">info@travelsite.com</p>
+                    <p class="contact__time">info@travelsite.com</p>
                 </div>
             </div>
 
-            <div class="contact__Info">
-                <h3 class="title">Hours</h3>
-                <div class="contact__Details">
+            <div>
+                <h3 class="contact__title">Hours</h3>
+                <div class="contact__details">
                     <div class="contact__hours">
                         <p class="contact__sub-title">Monday - Friday</p>
                         <p class="contact__time">9:00 AM - 5:00 PM</p>
@@ -86,13 +88,15 @@
 
             </div>
 
-
             <div class="contact__Info">
-                <h3 class="title">Social</h3>
+                <h3 class="contact__title">Social</h3>
                 <div class="contact__social-links">
-                    <img class="contact__social-img" src="./assets/Icons/icon-instagram.png" alt="Instagram">
-                    <img class="contact__social-img" src="./assets/Icons/icon-facebook.png" alt="Facebook">
-                    <img class="contact__social-img" src="./assets/Icons/icon-twitter.png" alt="Twitter">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="contact__social-img"
+                            src="./assets/images/icon-instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="contact__social-img"
+                            src="./assets/images/icon-facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/" target="_blank"><img class="contact__social-img"
+                            src="./assets//images/icon-twitter.png" alt="Twitter"></a>
                 </div>
             </div>
 
