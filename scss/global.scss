@@ -50,17 +50,15 @@ body {
     font-size: 2rem;
     cursor: pointer;
   
-    &--active {
+    &--active, &:hover{
       border-bottom: 4px solid $brand-secundary;
-      &:hover{
-        color: $brand-secundary;
-      }
     }
   }
   
   &__link {
     text-decoration: none;
     color: #393939;
+    transition: color 0.3s ease;
   }
 
 }
@@ -80,9 +78,15 @@ body {
     color: $brand-secundary;
     font-size: 1.2rem;
     font-weight: lighter;
-    margin-bottom: 0;
     text-transform: uppercase;
   }
+
+
+  &__email {
+      text-decoration: none;
+      color: $brand-primary;
+      padding: 1.5rem 0;
+    }
 
   &__hours {
     @include flex(center, column, null);

@@ -21,10 +21,7 @@
   width: 28%;
   height: 32%;
   flex-wrap: wrap;
-  padding: 0rem 2rem;
-}
-.itinerary__card:first-child {
-  padding-bottom: 4.5rem;
+  padding: 0 2rem 4.5rem;
 }
 .itinerary__card-title {
   text-align: center;

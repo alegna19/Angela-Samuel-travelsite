@@ -40,6 +40,7 @@
 }
 .recommendations__title {
   color: #335576;
+  padding: 3rem 7rem;
 }
 .recommendations__container {
   display: flex;
@@ -53,13 +54,32 @@
   height: 50rem;
   margin: 4rem;
 }
+.recommendations__card::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #db7a4e;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+.recommendations__card:hover::after {
+  opacity: 0.5;
+}
 .recommendations__image {
   height: 100%;
+  width: 100%;
   border-radius: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.recommendations__title {
+.recommendations__card-title {
   position: absolute;
   bottom: 1rem;
   right: 2rem;
   color: white;
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */

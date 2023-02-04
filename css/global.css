@@ -46,15 +46,13 @@ body {
   font-size: 2rem;
   cursor: pointer;
 }
-.nav__item--active {
+.nav__item--active, .nav__item:hover {
   border-bottom: 4px solid #db7a4e;
-}
-.nav__item--active:hover {
-  color: #db7a4e;
 }
 .nav__link {
   text-decoration: none;
   color: #393939;
+  transition: color 0.3s ease;
 }
 
 .contact {
@@ -71,8 +69,12 @@ body {
   color: #db7a4e;
   font-size: 1.2rem;
   font-weight: lighter;
-  margin-bottom: 0;
   text-transform: uppercase;
+}
+.contact__email {
+  text-decoration: none;
+  color: #335576;
+  padding: 1.5rem 0;
 }
 .contact__hours {
   display: flex;
